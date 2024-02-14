@@ -25,3 +25,10 @@ yesBtn.addEventListener("click", () => {
 
   can1.style.display = "none";
 });
+
+yesBtn.addEventListener("click", function() {
+  // Wait for 2 seconds before redirecting
+  setTimeout(function() {
+      window.location.href = "index2.html"; // Change the URL to the desired destination
+  }, 1000);
+});
